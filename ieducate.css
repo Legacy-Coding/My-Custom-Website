@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+
+}
+.logo{
+    width: 10%;
+    border: solid white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 4px;
+    
+}
+
+.logo img{
+    /* width: 55px; */
+
+}
+
+.btn{
+    padding: 8px 20px solid black;
+    margin: 9px 3px;
+    border: 2px solid white;
+    height: 34px;
+    
+    border-radius: 8px; 
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px solid black;
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    width: 50%;
+    /* background-color: black; */
+    color: white;
+    position: sticky;
+}
+.nav-list li{
+    padding: 23px 34px;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+.rightnav{
+    /* background-color: teal; */
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 15px;
+    border: solid gray;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url("image\Iron-Man-784x441r.jpg");
+    background-size: cover;
+    /* background-blend-mode: darken; */
+
+}
+
+    
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 80%;
+}
+.buttons{
+    
+    
+}
+.firstsection{
+    height: 100vh;
+}
+.first-half{
+text-align: center;
+justify-content: center;
+}
+.second-half{
+
+}
+.second-half img{
+    width: 234px;
+    border: 5px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    
+    }
+    .text-big{
+font-size: 50px;
+    }
+    .text-small{
+        font-size: 27px;
+    }
+.rightsec{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ 
+}
+.rightsec img{
+    height: 300px;
+    
+
+}
+.sectag{
+font-size: 50px;
+}
+.paras{
+    padding: 0 98px;
+}
+.thumbnail{
+    padding-left: 50px;
+}
+.leftsec{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row-reverse;
+    font-family: 'Ubuntu', sans-serif;
+}
+.leftsec img{
+height: 300px;
+}
+/* .thumbnail{
+    border: 20px solid black;
+} */
+.contact{
+    background-color: blanchedalmond;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    /* width: 755px; */
+}
+.form{
+    /* width: 33px; */
+    background-color: blanchedalmond;
+    text-align: center;
+    justify-content: center;
+    margin:42px auto;
+    margin-top: 33px;
+    padding: 6px;
+    padding-bottom: 67px;
+    max-width: 62%;
+    margin: 25px auto;
+}
+.head{
+    font-size: 3rem;
+}
+.form-input{
+    padding-left: 100px;
+    text-align: center;
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%; 
+    font-size: 19px;
+    border: 2px solid w;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.end{
+font-size: 2rem;
+text-align: center;
+justify-content: center;
+background-color: gray;
+color: white;
+}
+.burger{
+position: sticky;
+p
+cursor: pointer;
+right: 20%;
+    top: 1%;
+    display: none;
+}
+.line{
+    background-color: white;
+    width: 33px;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px ){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
